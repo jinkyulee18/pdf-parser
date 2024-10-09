@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "name": "pdf-parser",
+  "version": "1.0.0",
+  "description": "this will parse through the pdf file that is inserted and will extract any information that is currently in the file",
+  "main": "app.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "jl",
+  "license": "ISC"
+}
